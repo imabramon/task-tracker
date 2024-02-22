@@ -1,0 +1,10 @@
+.workspace{
+    width: 240px;
+
+    &__logo{
+        --logo-radius: 50px;
+        width: var(--logo-radius);
+        height:  var(--logo-radius);
+        border-radius: calc( var(--logo-radius) / 2);
+    }
+}
